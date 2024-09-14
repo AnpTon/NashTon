@@ -29,13 +29,8 @@
 	width:25%;
 	opacity: 95%;
 }
-#inhead{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	color: #939B51;
-
-
+header{
+	text-align:center;
 }
 footer{
 
@@ -49,12 +44,9 @@ footer{
 body{
 	background: radial-gradient(circle, #CED2BA, #BBD3AC);
 }
-#hobhead{
-	text-align:center;
-}
 .list {
 	flex: 1;
-	max-width: 200px;
+	max-width: 300px;
 	list-style-type: none;
 	border-radius: 20%;
 	border-style: dotted;
@@ -81,11 +73,12 @@ body{
 #gallCol{
     display: flex;
     justify-content: center;
-	gap: 10px;
+	gap: 50px;
 }
 .gallrow {
+	display:flex;
 	flex: 1;
-	max-width: 200px;
+	max-width: 300px;
 	border-radius: 20%;
 	border-style: dotted;
 	border-width: 2px;
@@ -93,7 +86,20 @@ body{
 	padding: 10px;
 	justify-content:center;
 	align-items:center;
+	flex-direction: column;
 }
-.gallrow img {
-	max-width: 50%;
+.images {
+    display: none; 
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.images img {
+    width: 75%; 
+    height: auto; 
+    margin-bottom: 5px; 
+}
+.gallbut {
+	font-size: 18px;
+	margin-bottom: 10px;
 }
