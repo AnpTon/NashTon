@@ -1,8 +1,8 @@
-document.getElementById("myselfbut").onclick = function() {
-    if (document.getElementById("Myselfimg").style.display == "flex") {
-        document.getElementById("Myselfimg").style.display = "none";
+document.getElementById("bibut").onclick = function() {
+    if (document.getElementById("biimg").style.display == "flex") {
+        document.getElementById("biimg").style.display = "none";
     } else {
-        document.getElementById("Myselfimg").style.display = "flex";
+        document.getElementById("biimg").style.display = "flex";
     }
 };
 document.getElementById("petbut").onclick = function(){
