@@ -1,3 +1,4 @@
+
 document.getElementById("bibut").onclick = function() {
     if (document.getElementById("biimg").style.display == "flex") {
         document.getElementById("biimg").style.display = "none";
@@ -18,4 +19,4 @@ document.getElementById("MLbut").onclick = function(){
     } else {
         document.getElementById("MLimg").style.display = "flex";
     }
-}
+};
